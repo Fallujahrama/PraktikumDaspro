@@ -11,6 +11,7 @@ public class ContohVariabel11 {
         System.out.println("Apakah pandai? " + isPandai);
         System.out.println("Jenis kelamin : " + jenisKelamin);
         System.out.println("IPK : " + ipk);
+        // %s untuk memanggil tipe data string yg sudah di declare
         System.out.println(String.format("Saya berumur %s tahun dengan tinggi badan %s", umurSaya, tinggi ));
     }
 }
