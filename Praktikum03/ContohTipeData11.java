@@ -1,9 +1,9 @@
 public class ContohTipeData11 {
     
     public static void main(String[] args) {
-        char golonganDarah = 'A';
+        char golonganDarah = 'A'; //byte code A berawal dari angka 65 dst
         short jumlahPenduduk = 1025;
-        float suhu = 60.50f;
+        float suhu = 60.50f; //
         double berat = 0.5467812345;
         long saldo = 150000000;
         int angkaDesimal = 0x10;
