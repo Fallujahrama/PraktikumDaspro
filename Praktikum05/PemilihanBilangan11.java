@@ -9,12 +9,8 @@ public class PemilihanBilangan11 {
         System.out.print("Masukan sebuah angka : ");
         angka = input.nextInt();
 
-        if (angka % 2 == 0 ) {
-            System.out.println(String.format("Angka %s yang anda masukan angka Genap!", angka));
-        }
-        else {
-            System.out.println(String.format("Angka %s yang anda masukan angka Ganjil!", angka));
-        }
+        String hasil = (angka % 2 == 0) ? "Angka Genap" : "Angka Ganjil";
+        System.out.println(hasil);
 
         input.close();
     }
