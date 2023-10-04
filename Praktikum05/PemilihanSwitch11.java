@@ -28,9 +28,9 @@ public class PemilihanSwitch11 {
                 hasil = angka1 / angka2;
                 break;
             default :
-                System.out.println("Operator tidak terdaftar");
+                System.out.println("Operator tidak sesuai"); return;
             }
-            
+
         System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
 
         sc.close();
