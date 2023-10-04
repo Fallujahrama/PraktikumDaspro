@@ -5,6 +5,7 @@ public class PemilihanBilangan11 {
         Scanner input = new Scanner(System.in);
 
         int angka;
+        
 
         System.out.print("Masukan sebuah angka : ");
         angka = input.nextInt();

@@ -31,7 +31,9 @@ public class PemilihanOperator11 {
             System.out.println(angka1 + " / " + angka2 + " = " + hasil);
         }
         else{
-            System.out.println("Operator tidak sesuai");
+            System.out.println("Operator tidak sesuai"); return;
         }
+
+        //System.out.println(String.format("%s %c %s = %s", angka1, operator, angka2, hasil));
     }
 }
