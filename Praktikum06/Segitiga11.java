@@ -19,8 +19,14 @@ public class Segitiga11 {
             if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)){
                 System.out.println("Itu merupakan segitiga siku-siku");
             }
+            else if ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60)){
+                System.out.println("Itu merupakan segitiga sama sisi");
+            }
+            else if ((sudut1 == sudut2) || (sudut2 == sudut3)){
+                System.out.println("Itu merupakan segitiga sama sama kaki");
+            }
             else {
-                System.out.println("Itu bukan segitiga siku-siku");
+                System.out.println("Itu merupakan segitiga sembarang");
             }
         }
     }   
