@@ -16,8 +16,7 @@ public class KabisatNested11 {
             else {
                 System.out.println("Bukan tahun kabisat !");
             }
-        } 
-        else {
+        } else {
             System.out.println("Bukan tahun kabisat !");
         }
     }
