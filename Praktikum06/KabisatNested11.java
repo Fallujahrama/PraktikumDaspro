@@ -13,9 +13,12 @@ public class KabisatNested11 {
             if ((tahun %100) != 0){
                 System.out.println("Tahun kabisat !");
             } 
+            else if ((tahun %400) == 0){
+                System.out.println("Tahun kabisat !");
+            }
             else {
                 System.out.println("Bukan tahun kabisat !");
-            }
+            }   
         } else {
             System.out.println("Bukan tahun kabisat !");
         }
