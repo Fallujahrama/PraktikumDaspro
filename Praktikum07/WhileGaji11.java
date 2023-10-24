@@ -17,7 +17,7 @@ public class WhileGaji11 {
             jabatan = input11.next();
             System.out.print("Masukkan jumlah jam lembur: ");
             jumlahJamLembur = input11.nextInt();
-            i++;
+            // i++;
 
             if(jabatan.equalsIgnoreCase ("direktur")) {
                 continue;
@@ -31,7 +31,7 @@ public class WhileGaji11 {
             // else {
             //     System.out.println("Jabatan invalid");
             // }
-            // i++;
+            i++;
         }
         System.out.println("Total gaji Lembur: " + totalGajiLembur);
 
