@@ -7,7 +7,12 @@ public class tugas1 {
             b[j] = a[j];
         }
         for (int h : b){
+            System.out.println("Variable b = ");
             System.out.println(h);        
+        }
+        for (int k : a){
+            System.out.println("Variable a = ");
+            System.out.println(k);
         }
     }
 }
