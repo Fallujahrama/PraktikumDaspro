@@ -5,14 +5,15 @@ public class tugas1 {
 
         for (int j = 0 ; j < b.length ; j++){
             b[j] = a[j];
+            System.out.println(b[j]);
         }
-        for (int h : b){
-            System.out.println("Variable b = ");
-            System.out.println(h);        
-        }
-        for (int k : a){
-            System.out.println("Variable a = ");
-            System.out.println(k);
-        }
+        // for (int h : b){
+        //     System.out.println("Variable b = ");
+        //     System.out.println(h);        
+        // }
+        // for (int k : a){
+        //     System.out.println("Variable a = ");
+        //     System.out.println(k);
+        // }
     }
 }
