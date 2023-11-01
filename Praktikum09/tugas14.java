@@ -11,10 +11,9 @@ public class tugas14 {
         for (int j = 0 ; j < bulat.length; j++){
             System.out.print("Masukan bilangan ke " +(j+1)+" : ");
             bulat[j] = sc.nextInt();
+            total += bulat[j];
         }
-        for (int i = 0 ; i < bulat.length; i++){
-            total += bulat[i];
-        }
+        
         System.out.println("Total keseluruhan = " +total);
         rata = (double) total/bulat.length;
         System.out.println("Rata-rata dari seluruh bilangan = " +rata);
