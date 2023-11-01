@@ -6,13 +6,17 @@ public class ArrayBilangan11 {
         // bilangan[1] = 12867;
         // bilangan[2] = -7;
         // bilangan[3] = 2000000;
-
+        
+        // System.out.println(bilangan[0]);
+        // System.out.println(bilangan[1]);
+        // System.out.println(bilangan[2]);
+        // System.out.println(bilangan[3]);
+        
         int [] bilangan = {5, 12867, -7, 2000000};
 
-        System.out.println(bilangan[0]);
-        System.out.println(bilangan[1]);
-        System.out.println(bilangan[2]);
-        System.out.println(bilangan[3]);
+        for (int i = 0; i < 4; i++){
+            System.out.println(bilangan[i]);
+        }
     }
     
 }
